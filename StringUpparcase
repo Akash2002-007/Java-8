@@ -1,0 +1,15 @@
+package steamsapi;
+
+import java.util.Arrays;
+import java.util.List;
+
+public class StringUpparcase {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+   List<String> name=Arrays.asList("ram","shyam","mohan");
+      name.stream().map(String::toUpperCase)
+        .forEach(System.out::println);
+	}
+
+}
